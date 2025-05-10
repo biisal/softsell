@@ -1,9 +1,12 @@
 # 🧾 SoftSell – Software License Resale Platform (Frontend)
 
+<img src="public/hero.png" alt="SoftSell Screenshot" width="100%">
+
+
 SoftSell is a fictional, single-page marketing website for a software resale startup. The goal of this project is to showcase a clean, responsive, and user-friendly frontend built with modern web technologies.
 
 ## 🔗 Live Site
-[Visit Live Site](https://softsell.vercel.app)
+[Visit Live Site](https://softsell-flax.vercel.app)
 
 ---
 
@@ -51,19 +54,9 @@ SoftSell is a fictional, single-page marketing website for a software resale sta
 - **Layout**: Mobile-first approach using Tailwind's grid and flex utilities
 - **Chatbot UX**: Mimics LLM chat UI with clear prompt handling
 
----
 
-## ⏱️ Time Spent
-| Task                          | Time |
-|-------------------------------|------|
-| Layout & Styling              | 5 hrs|
-| Components & Sections         | 4 hrs|
-| Animations + Dark Mode        | 2 hrs|
-| Chatbot & Extras              | 3 hrs|
-| Testing + Deployment + README | 1 hr |
-| **Total**                     | ~15 hrs |
+<img src="public/testimonials.png" alt="SoftSell Screenshot" width="100%">
 
----
 
 ## 📦 Deployment
 - Hosted on **Vercel**
