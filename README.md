@@ -1,54 +1,78 @@
-# React + TypeScript + Vite
+# 🧾 SoftSell – Software License Resale Platform (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SoftSell is a fictional, single-page marketing website for a software resale startup. The goal of this project is to showcase a clean, responsive, and user-friendly frontend built with modern web technologies.
 
-Currently, two official plugins are available:
+## 🔗 Live Site
+[Visit Live Site](https://softsell.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features Implemented
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### ✅ Core Sections
+- **Hero Section** : Headline, subheading, and CTA button
+- **How It Works**: 3-step process (Upload → Valuation → Payout)
+- **Why Choose Us**: Key benefits in icon tiles
+- **Testimonials**: Customer reviews with role and company
+- **Contact Form**:
+  - Name, Email, Company, License Type (dropdown), Message
+  - Frontend validation included
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🎨 UI/UX
+- Modern and clean design
+- Responsive on all screen sizes (mobile, tablet, desktop)
+- Tailwind CSS for styling
+- Coherent color palette and typography
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🔧 Tech Stack
+- **Framework**: React
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide
+- **Form Handling**: Zod + React Hook Form
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🌟 Bonus Features
+- ✅ **Favicon and Logo Placeholder**
+- ✅ **SEO Meta Tags** and Page Title
+- ✅ **Light/Dark Mode Toggle**
+- ✅ **Framer Motion Animations**
+- ✅ **Mocked AI Chatbot** (Basic support-style assistant using hardcoded logic)
+
+---
+
+
+---
+
+## 🧠 Design Choices
+- **Typography**: `Inter` for a clean, modern look
+- **Palette**: Light green + white with dark mode support
+- **Layout**: Mobile-first approach using Tailwind's grid and flex utilities
+- **Chatbot UX**: Mimics LLM chat UI with clear prompt handling
+
+---
+
+## ⏱️ Time Spent
+| Task                          | Time |
+|-------------------------------|------|
+| Layout & Styling              | 5 hrs|
+| Components & Sections         | 4 hrs|
+| Animations + Dark Mode        | 2 hrs|
+| Chatbot & Extras              | 3 hrs|
+| Testing + Deployment + README | 1 hr |
+| **Total**                     | ~15 hrs |
+
+---
+
+## 📦 Deployment
+- Hosted on **Vercel**
+- Optimized for performance and SEO
+
+---
+
+## 🤝 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+
